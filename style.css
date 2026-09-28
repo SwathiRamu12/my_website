@@ -1,0 +1,79 @@
+hr{
+    border:1px solid blue;
+}
+h1{
+    display:block;
+}
+ul,li{
+   display: inline;
+}
+.one{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding:10px;   
+    cursor:pointer;
+}
+.box{
+    display:inline-block;
+    border-width:1px;
+    border-color:black;
+    border-style: groove;
+}
+img{
+    width:220px;
+    height:220px;
+}
+.two{
+    text-align: center;
+    margin:10px;
+}
+.box:hover{
+    background-color:aqua;
+    color:palevioletred;
+}
+img{
+    cursor:cell;
+}
+.P{
+    display:inline-block;
+    background-color:black;
+    color:white;
+    border-radius:1px;
+    border-width:2px;
+    border-color:blueviolet;
+    border-style: double;
+}
+.P{
+    cursor:Pointer;
+}
+.P:hover{
+    color:tomato;
+
+}
+
+.three{
+    margin:20px;
+    text-align: center;
+    background-color: black;
+}
+table{
+    margin:auto;
+}
+td{
+    padding:3px;
+    color:white;
+}
+td:first-child{
+    text-align:center;
+}
+input{
+    width:250px;
+    padding:5px;
+}
+button{
+    width:600px;
+    text-align: center;
+    background-color: yellow;
+    padding:10px;
+}
